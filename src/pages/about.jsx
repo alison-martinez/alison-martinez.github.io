@@ -93,7 +93,7 @@ export default function About() {
               </p>
               <p>
                 {` I always thought that I "missed my calling", but
-                I recently took the plunge and completely Launch School's Core
+                I recently took the plunge and completed Launch School's Core
                 Curriculum -- an 18+ month program -- in six months part-time.
                 After that I joined their Capstone cohort and decided to
                 formally make a career change from software engineering-adjacent
