@@ -43,7 +43,7 @@ export default function Speaking() {
             <Appearance
               href="https://public.launchschool.com/employers"
               title="Software Engineering"
-              description="The mastery-based Core Curriculum followed by Capstone, with a focus on job readiness and just-in-time learning."
+              description="Completed the mastery-based Core Curriculum followed by Capstone, with a focus on just-in-time learning and the skills to immediately add value to a modern software engineering team."
               event="Launch School"
               cta="Learn More"
             />
@@ -52,7 +52,7 @@ export default function Speaking() {
               title="Ph.D., Genetics"
               description={
                 <div>
-                  <p class="mb-2">
+                  <p className="mb-2">
                     {`Gained proficiency in C, C++, Perl, and scientific writing
                     in LaTeX, with a focus on optimizing existing software and
                     creating new scripts to analyze genetic data and present
@@ -71,7 +71,7 @@ export default function Speaking() {
             <Appearance
               href="https://science.psu.edu/bmb/undergraduate/degree-programs/MICRB"
               title="B.S., Microbiology"
-              description="Bachelor of Science degree in microbiology and a minor in biochemistry and molecular biology."
+              description="Earned a Bachelor of Science degree in microbiology and a minor in biochemistry and molecular biology."
               event="The Pennsylvania State University"
               cta="Learn More"
             />
@@ -82,7 +82,7 @@ export default function Speaking() {
               title="Senior Technology Licensing Officer"
               description={
                 <div>
-                  <p class="mb-2">
+                  <p className="mb-2">
                     {`Evaluated innovations in terms of intellectual property strength, significance, commercial impact,
 technical feasibility, and value proposition compared to existing and pipeline competitors, focusing on
 novel pharmaceuticals, biotech, medical devices, and innovations applicable to the healthcare sector.`}
@@ -101,13 +101,26 @@ projects and proposals, including research design, commercialization strategy, a
               title="Geneticist and Clinical Data Specialist"
               description={
                 <div>
-                  <p class="mb-2">
+                  <p className="mb-2">
                     {`Developed new software tools to allow for increased efficiency and functionality in handling large and
 complex data sets, with a special interest in Perl, R, Google Motion Charts, Circos, and 3M PPE tools.`}
                   </p>
-                  <p>
+                  <p className="mb-2">
                     {`Evaluated the analytical validity, clinical validity, and clinical utility of emerging genetic technologies,
 including FDA-approved products and proprietary, lab-developed tests.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Developed evidence-based policies, guidelines, and reimbursement rates for coverage of genetic tests
+and technologies for populations served by Oklahoma’s Medicaid agency.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Acted as a liaison between Oklahoma Medicaid and providers, working toward appropriate
+utilization of genetic products and technologies.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Produced and delivered educational presentations on genetics to key internal and external
+stakeholders, including the Medicaid Evidence-Based Decisions Project, the Oklahoma Health Care
+Authority Board, the OK Hospital Association, and the University of OK College of Pharmacy.`}
                   </p>
                 </div>
               }
@@ -119,14 +132,22 @@ including FDA-approved products and proprietary, lab-developed tests.`}
               title="Life Science Consultant and Project Manager"
               description={
                 <div>
-                  <p class="mb-2">
+                  <p className="mb-2">
+                    {`Managed over 30 projects focused on a variety of client needs including strategic planning,
+commercial due diligence, revenue forecasting, valuation, and target acquisition screening..`}
+                  </p>
+                  <p className="mb-2">
                     {`Developed market models, pharmacoeconomic evaluations, and other analytic approaches to quantify
 the value of innovative technologies and financial impact of recommended strategies.`}
                   </p>
-                  <p class="mb-2">
+                  <p className="mb-2">
                     {`Conducted rigorous analysis of pharma, biotech, and medical device market segments to determine the
 current treatment paradigm, competitive landscape, emerging technologies, IP status, reimbursement
 environment, and unmet needs across various therapeutic and diagnostic areas.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Coordinated the short- and long-term tasks of teams comprised of L.E.K. associates and client
+personnel to ensure that projects exceeded expectations and concluded on time and on budget.`}
                   </p>
                   <p>
                     {`Synthesized team findings into actionable recommendations and presented those findings to clients

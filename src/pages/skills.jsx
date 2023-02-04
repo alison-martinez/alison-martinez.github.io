@@ -38,7 +38,7 @@ export default function Uses() {
       </Head>
       <SimpleLayout
         title="I'm always looking to learn something new."
-        intro="One of my strengths is getting up to speed on new languages, libraries, and frameworks quickly.  There's a lot to learn, but I look forward to working on a wide range of problems, both in and out of my comfort zone."
+        intro="One of my strengths is getting up to speed on new languages, libraries, and frameworks quickly.  I look forward to continuing to expand this list and working on a wide range of problem domains, both in and out of my comfort zone."
       >
         {/*
         <div className="space-y-20">

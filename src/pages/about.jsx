@@ -68,8 +68,8 @@ export default function About() {
                 {`My passions in life include mid-century modern furniture,
                 Stephen King and Haruki Murakami novels, HBO's The Leftovers, my
                 mint green Fiat 500, and smart home automation. I share my home
-                with my husband of 12 years, three rescued Norwegian Elkhounds
-                (Chewie, Lyanna, and Nora), and three rescue cats (Eames,
+                with my husband of 12 years and six rescued animals -- three Norwegian Elkhounds
+                (Chewie, Lyanna, and Nora) and three cats (Eames,
                 Daphne, and Clementine).`}
               </p>
               <p>
@@ -84,25 +84,22 @@ export default function About() {
                 lab, the answer is not much.`}
               </p>
               <p>
-                {`I decided to buy myself some time by working on my PhD in
-                genetics at the University of Chicago and discovered that I
-                could actually do computational genetics -- no wet lab work
+                {`I decided to pursue a PhD in
+                genetics at the University of Chicago and discovered computational genetics -- no wet lab work
                 required. I dual-booted my Windows laptop with Linux and taught
-                myself enough Perl and R to be dangerous...I mean, to run
-                simulations and process the data for my dissertation.`}
+                myself enough Perl, R, and C++ to to develop and run coalescent
+                simulations and process the data for my dissertation.  This started my self-taught dive into software and development.`}
               </p>
               <p>
-                {` I always thought that I "missed my calling", but
-                I recently took the plunge and completed Launch School's Core
-                Curriculum -- an 18+ month program -- in six months part-time.
-                After that I joined their Capstone cohort and decided to
-                formally make a career change from software engineering-adjacent
-                to pure software engineering roles.`}
+                {`After years of working in software engineering-adjacent roles, 
+                I took the leap and completed Launch School's Core Curriculum and joined 2023's first
+                Capstone cohort, looking to fully transition into a pure software engineering role.
+                With my unique background and experience, I am excited to bring fresh
+                perspectives and contributions to new opportunities.`}
               </p>
               <p>
-                {`If you've found me here, I hope that you will reach out and see
-                what my unique career progression could contribute to your
-                company!`}
+                {`If you've found me here, I hope that you will reach out and see how 
+                my nontraditional education, professional experience, and career trajectory could contribute to your company!`}
               </p>
             </div>
           </div>
