@@ -23,7 +23,7 @@ const projects = [
   {
     name: 'The Dumpster of Disappointment',
     description:
-      'A light-hearted take on a request bin, generating custom endpoints for aggregating and viewing webhood data.',
+      'A light-hearted take on a request bin, generating custom endpoints for aggregating and viewing webhook data.',
     link: {
       href: 'https://www.alisonmartinez.info/request',
       label: 'request',
@@ -32,8 +32,7 @@ const projects = [
   },
   {
     name: 'Starburst Inventory',
-    description:
-      'A fun little app for keeping track of my inventory of Franciscan Starburst dishes.',
+    description: `My first app will always have a special place in my heart.  It's a fun little tool for keeping track of my inventory of Franciscan Starburst dishes.`,
     link: {
       href: 'https://starburst.alisonmartinez.info',
       label: 'starburst',

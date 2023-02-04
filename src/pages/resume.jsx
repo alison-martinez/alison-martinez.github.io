@@ -50,14 +50,21 @@ export default function Speaking() {
             <Appearance
               href="https://ggsb.uchicago.edu/"
               title="Ph.D., Genetics"
-              description="Gained proficiency in C, C++, Perl, and scientific writing
+              description={
+                <div>
+                  <p class="mb-2">
+                    {`Gained proficiency in C, C++, Perl, and scientific writing
                     in LaTeX, with a focus on optimizing existing software and
                     creating new scripts to analyze genetic data and present
-                    results in an informative manner. 
-                    
-                    Collaborated with fellow graduate students and professors
-                    on the design, implementation, visualization, and
-                    publication of novel scientific work."
+                    results in an informative manner.`}
+                  </p>
+                  <p>
+                    {`Collaborated with fellow graduate students and professors on
+                    the design, implementation, visualization, and publication
+                    of novel scientific work.`}
+                  </p>
+                </div>
+              }
               event="The University of Chicago"
               cta="Learn More"
             />
@@ -73,34 +80,60 @@ export default function Speaking() {
             <Appearance
               href="https://www.innovationpark.psu.edu/index.php/technology-transfer"
               title="Senior Technology Licensing Officer"
-              description="Evaluated innovations in terms of intellectual property strength, significance, commercial impact,
+              description={
+                <div>
+                  <p class="mb-2">
+                    {`Evaluated innovations in terms of intellectual property strength, significance, commercial impact,
 technical feasibility, and value proposition compared to existing and pipeline competitors, focusing on
-novel pharmaceuticals, biotech, medical devices, and innovations applicable to the healthcare sector.
-Provided actionable feedback and recommendations to inventors on potential improvements to their
-projects and proposals, including research design, commercialization strategy, and product positioning"
+novel pharmaceuticals, biotech, medical devices, and innovations applicable to the healthcare sector.`}
+                  </p>
+                  <p>
+                    {`Provided actionable feedback and recommendations to inventors on potential improvements to their
+projects and proposals, including research design, commercialization strategy, and product positioning.`}
+                  </p>
+                </div>
+              }
               event="Penn State University"
               cta="Learn More"
             />
             <Appearance
               href="https://oklahoma.gov/ohca/providers/molecular-pathology.html"
               title="Geneticist and Clinical Data Specialist"
-              description="Developed new software tools to allow for increased efficiency and functionality in handling large and
-complex data sets, with a special interest in Perl, R, Google Motion Charts, Circos, and 3M PPE tools.
-Evaluated the analytical validity, clinical validity, and clinical utility of emerging genetic technologies,
-including FDA-approved products and proprietary, lab-developed tests"
+              description={
+                <div>
+                  <p class="mb-2">
+                    {`Developed new software tools to allow for increased efficiency and functionality in handling large and
+complex data sets, with a special interest in Perl, R, Google Motion Charts, Circos, and 3M PPE tools.`}
+                  </p>
+                  <p>
+                    {`Evaluated the analytical validity, clinical validity, and clinical utility of emerging genetic technologies,
+including FDA-approved products and proprietary, lab-developed tests.`}
+                  </p>
+                </div>
+              }
               event="Oklahoma Health Care Authority"
               cta="Learn More"
             />
             <Appearance
               href="https://www.lek.com/"
               title="Life Science Consultant and Project Manager"
-              description="Developed market models, pharmacoeconomic evaluations, and other analytic approaches to quantify
-the value of innovative technologies and financial impact of recommended strategies.
-Conducted rigorous analysis of pharma, biotech, and medical device market segments to determine the
+              description={
+                <div>
+                  <p class="mb-2">
+                    {`Developed market models, pharmacoeconomic evaluations, and other analytic approaches to quantify
+the value of innovative technologies and financial impact of recommended strategies.`}
+                  </p>
+                  <p class="mb-2">
+                    {`Conducted rigorous analysis of pharma, biotech, and medical device market segments to determine the
 current treatment paradigm, competitive landscape, emerging technologies, IP status, reimbursement
-environment, and unmet needs across various therapeutic and diagnostic areas.
-Synthesized team findings into actionable recommendations and presented those findings to clients
-ranging from start-ups to multi-billion dollar pharmaceutical, biotech, and medical device corporations."
+environment, and unmet needs across various therapeutic and diagnostic areas.`}
+                  </p>
+                  <p>
+                    {`Synthesized team findings into actionable recommendations and presented those findings to clients
+ranging from start-ups to multi-billion dollar pharmaceutical, biotech, and medical device corporations.`}
+                  </p>
+                </div>
+              }
               event="L.E.K. Consulting"
               cta="Learn More"
             />
