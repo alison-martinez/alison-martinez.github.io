@@ -47,7 +47,7 @@ const features = [
   {
     name: 'Postgresql',
     description: '',
-    icon: 'devicon-postgresql-plain colored',
+    icon: 'devicon-postgresql-plain',
   },
   {
     name: 'MongoDB',
@@ -77,7 +77,7 @@ export function Skills() {
           <div key={feature.name} className="relative pl-16">
             <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-zinc-200">
               <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-600">
-                <i class={feature.icon} />
+                <i className={`${feature.icon} text-4xl text-blue-400`} />
                 {/*<i class="devicon-react-original colored"></i>*/}
                 {/*<feature.icon className="h-6 w-6 text-white" aria-hidden="true" />*/}
               </div>

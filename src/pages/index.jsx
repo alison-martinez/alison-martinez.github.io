@@ -107,9 +107,9 @@ function ArrowDownIcon(props) {
 function Article({ article }) {
   return (
     <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
+      <Card.TitleInTab href={`/articles/${article.slug}`}>
         {article.title}
-      </Card.Title>
+      </Card.TitleInTab>
       <Card.Eyebrow as="time" dateTime={article.date} decorate>
         {formatDate(article.date)}
       </Card.Eyebrow>

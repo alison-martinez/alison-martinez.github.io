@@ -50,6 +50,18 @@ Card.Title = function CardTitle({ as: Component = 'h2', href, children }) {
   )
 }
 
+Card.TitleInTab = function CardTitleInTab({
+  as: Component = 'h2',
+  href,
+  children,
+}) {
+  return (
+    <Component className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      {href ? <Card.Link href={href}>{children}</Card.Link> : children}
+    </Component>
+  )
+}
+
 Card.Description = function CardDescription({ children }) {
   return (
     <div className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
