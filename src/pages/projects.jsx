@@ -3,9 +3,6 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoUChicago from '@/images/logos/uchicago.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoDumpster from '@/images/logos/dumpster.svg'
@@ -32,7 +29,7 @@ const projects = [
   },
   {
     name: 'Starburst Inventory',
-    description: `My first app will always have a special place in my heart.  It's a fun little tool for keeping track of my inventory of Franciscan Starburst dishes.`,
+    description: `A fun little tool for keeping track of my inventory of Franciscan Starburst dishes.`,
     link: {
       href: 'https://starburst.alisonmartinez.info',
       label: 'starburst',

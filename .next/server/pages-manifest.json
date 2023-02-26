@@ -2,6 +2,19 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/articles/capstone_work_in_progress": "pages/articles/capstone_work_in_progress.html",
+  "/articles/how_long": "pages/articles/how_long.html",
+  "/articles/coding_setup": "pages/articles/coding_setup.html",
+  "/articles/ls_for_introverts": "pages/articles/ls_for_introverts.html",
+  "/projects": "pages/projects.html",
+  "/resume": "pages/resume.html",
+  "/skills": "pages/skills.html",
+  "/speaking": "pages/speaking.html",
+  "/thank-you": "pages/thank-you.html",
+  "/uses-new": "pages/uses-new.html",
+  "/uses": "pages/uses.html",
+  "/articles": "pages/articles.js",
   "/": "pages/index.js",
-  "/skills": "pages/skills.js"
+  "/404": "pages/404.html"
 }

@@ -67,7 +67,7 @@ export default function About() {
               <p>
                 {`My passions in life include mid-century modern furniture,
                 Stephen King and Haruki Murakami novels, HBO's The Leftovers, my
-                mint green Fiat 500, and smart home automation. I share my home
+                mint green Fiat 500, and smart home automation. I love to golf...poorly.  I share my home
                 with my husband of 12 years and six rescued animals -- three Norwegian Elkhounds
                 (Chewie, Lyanna, and Nora) and three cats (Eames,
                 Daphne, and Clementine).`}
@@ -145,7 +145,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                alison@alisonmartinez.info
+                alison@alisonmartinez.dev
               </SocialLink>
             </ul>
           </div>

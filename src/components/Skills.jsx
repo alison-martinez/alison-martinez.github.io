@@ -3,6 +3,7 @@ const features = [
     name: 'Ruby / Sinatra',
     description: '',
     icon: 'devicon-ruby-plain colored',
+    //icon: 'nf-dev-ruby',
   },
   {
     name: 'HTML',
@@ -13,6 +14,16 @@ const features = [
     name: 'Javascript',
     description: '',
     icon: 'devicon-javascript-plain colored',
+  },
+  {
+    name: 'Node.js',
+    description: '',
+    icon: 'devicon-nodejs-plain colored',
+  },
+  {
+    name: 'Express',
+    description: '',
+    icon: 'devicon-express-original',
   },
   {
     name: 'React',
