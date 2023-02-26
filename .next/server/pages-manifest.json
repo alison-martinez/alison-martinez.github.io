@@ -2,5 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/articles/coding_setup": "pages/articles/coding_setup.js"
+  "/": "pages/index.js",
+  "/about": "pages/about.js",
+  "/articles": "pages/articles.js",
+  "/skills": "pages/skills.js",
+  "/projects": "pages/projects.js",
+  "/articles/coding_setup": "pages/articles/coding_setup.js",
+  "/resume": "pages/resume.js"
 }
