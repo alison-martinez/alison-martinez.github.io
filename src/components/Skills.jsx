@@ -46,6 +46,16 @@ const features = [
     icon: 'devicon-perl-plain colored',
   },
   {
+    name: 'Python',
+    description: '',
+    icon: 'devicon-python-plain colored',
+  },
+  {
+    name: 'Docker',
+    description: '',
+    icon: 'devicon-docker-plain colored',
+  },
+  {
     name: 'nginx',
     description: '',
     icon: 'devicon-nginx-original colored',

@@ -65,41 +65,17 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                {`My passions in life include mid-century modern furniture,
-                Stephen King and Haruki Murakami novels, HBO's The Leftovers, my
-                mint green Fiat 500, and smart home automation. I love to golf...poorly.  I share my home
-                with my husband of 12 years and six rescued animals -- three Norwegian Elkhounds
-                (Chewie, Lyanna, and Nora) and three cats (Eames,
-                Daphne, and Clementine).`}
+                {`My interests and pursuits include mid-century modern furniture, Stephen King and Haruki Murakami novels, HBO's The Leftovers, my mint green Fiat 500, and smart home automation. I love to golf...poorly.  I share my home with my husband of 12 years and six rescued animals -- three Norwegian Elkhounds (Chewie, Lyanna, and Nora) and three cats (Eames, Daphne, and Clementine).`}
               </p>
               <p>
-                {`Back in the dark ages when I was in high school, our programming
-                curriculum consisted of a single class in GW-Basic on
-                already-outdated Commodore 64s. I thoroughly enjoyed it, but at
-                the time it wasn't considered part of the "academic" track to be
-                interested in computers. I got a Bachelor's degree in
-                microbiology because it seemed interesting at the time, but I
-                never really thought about what job I would actually do with
-                that degree. It turns out that if you don't want to work in a
-                lab, the answer is not much.`}
+                {`Back in the dark ages when I was in high school, our programming curriculum consisted of a single class in GW-Basic on already-outdated Commodore 64s. I thoroughly enjoyed it, but at the time it wasn't considered part of the "academic" track to be interested in computers. I earned a Bachelor's degree in microbiology because it seemed interesting at the time, but I never really thought about what job I would actually do with that degree. It turns out that if you don't want to work in a lab, the answer is not much.`}
               </p>
               <p>
-                {`I decided to pursue a PhD in
-                genetics at the University of Chicago and discovered computational genetics -- no wet lab work
-                required. I dual-booted my Windows laptop with Linux and taught
-                myself enough Perl, R, and C++ to to develop and run coalescent
-                simulations and process the data for my dissertation.  This started my self-taught dive into software and development.`}
+                {`I decided to pursue a PhD in genetics at the University of Chicago and discovered computational genetics -- no wet lab work required. I dual-booted my Windows laptop with Linux and taught myself enough Perl, R, and C++ to to develop and run coalescent simulations and process the data for my dissertation.  This started my self-taught dive into software and development.`}
               </p>
               <p>
-                {`After years of working in software engineering-adjacent roles, 
-                I took the leap and completed Launch School's Core Curriculum and joined 2023's first
-                Capstone cohort, looking to fully transition into a pure software engineering role.
-                With my unique background and experience, I am excited to bring fresh
+                {`After years of working in software engineering-adjacent roles, I took the leap and completed Launch School's Core Curriculum and joined 2023's first Capstone cohort, looking to fully transition into a pure software engineering role. With my unique background and experience, I am excited to bring fresh
                 perspectives and contributions to new opportunities.`}
-              </p>
-              <p>
-                {`If you've found me here, I hope that you will reach out and see how 
-                my nontraditional education, professional experience, and career trajectory could contribute to your company!`}
               </p>
             </div>
           </div>

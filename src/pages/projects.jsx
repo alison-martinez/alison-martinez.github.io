@@ -42,7 +42,7 @@ const projects = [
   {
     name: 'Genetics',
     description:
-      'A maximum-likelihood method for demographic inference is applied to data sets consisting of the frequency spectrum of unlinked single-nucleotide polymorphisms (SNPs)',
+      'A maximum-likelihood method for demographic inference is applied to data sets consisting of the frequency spectrum of unlinked single-nucleotide polymorphisms (SNPs).',
     link: {
       href: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1448761/pdf/171.pdf',
       label: 'academic.oup.com/genetics',
@@ -52,7 +52,7 @@ const projects = [
   {
     name: 'Proceedings of the National Academy of Sciences',
     description:
-      'Making inferences about human demographic history by using a technique that combines multiple aspects of genetic data, including levels of polymorphism, the allele frequency spectrum, and linkage disequilibrium',
+      'Making inferences about human demographic history by using a technique that combines multiple aspects of genetic data, including levels of polymorphism, the allele frequency spectrum, and linkage disequilibrium.',
     link: {
       href: 'https://www.pnas.org/doi/10.1073/pnas.0507325102',
       label: 'pnas.org',
@@ -62,7 +62,7 @@ const projects = [
   {
     name: 'Doctoral Thesis',
     description:
-      'Inferring human demography from patterns of genetic variation',
+      'Inferring human demography from patterns of genetic variation.',
     link: {
       href: 'https://catalog.lib.uchicago.edu/vufind/Record/6091826',
       label: 'uchicago.edu',
