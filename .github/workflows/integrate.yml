@@ -33,6 +33,10 @@ jobs:
         env:
           CI: true
       - run: touch out/.nojekyll
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./out
 
       - name: Deploy to GitHub Pages
         id: deployment
