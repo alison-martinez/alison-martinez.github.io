@@ -6,7 +6,11 @@ import rehypePrism from '@mapbox/rehype-prism'
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx'],
   reactStrictMode: true,
-
+  images: {
+    unoptimized: true,
+    loader: 'imgix',
+    path: 'alison.imgix.net',
+  },
   experimental: {
     scrollRestoration: true,
   },
