@@ -1,0 +1,38 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Alison Martinez',
+  date: '2023-03-18',
+  title: `WSL2: A Girl's New Best Friend`,
+  description: `I've really enjoyed the improvements that WSL2 has made over the past few years, so I thought I'd take a few moments and share what I see as the benefits of using WSL2 for coding and how to get started with it.`,
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+WSL2 (Windows Subsystem for Linux 2) is a powerful tool for developers who want to use Linux on Windows. It allows you to run Linux command-line tools and applications directly on your Windows machine, without the need for a separate virtual machine or dual-boot setup. I've really enjoyed the improvements that WSL2 has made over the past few years, so I thought I'd take a few moments and share what I see as the benefits of using WSL2 for coding and how to get started with it.
+
+## Why use WSL2 for coding?
+
+**Access to a Linux environment**: If you're a developer who needs to work with Linux-based tools or applications, WSL2 provides a Linux environment that runs directly on your Windows machine. This eliminates the need for a separate virtual machine or dual-boot setup, saving you time and hassle. Before WSL, I dual-booted my computer with Linux and Windows, as it was the best option for folks like me that weren't willing to swap Windows for Apple.
+
+**Improved performance**: WSL2 is built on a lightweight virtualization technology, which means that it offers better performance than its predecessor, WSL1. With WSL2, you can expect faster boot times, improved file system performance, and reduced CPU usage. I have definitely seen the WSL experience improve over the last few years, and I expect new features will continue to be introduced over time.
+
+**Easy setup and configuration**: WSL2 is easy to set up and configure, thanks to the Windows Subsystem for Linux integration. Once you install WSL2, you can download and install your favorite Linux distribution from the Microsoft Store, and you're ready to start coding!
+
+**Seamless integration with VSCode**: Visual Studio Code is my preferred coding environment, and you can easily switch between WSL "remote" sessions with your Linux folders and "local" sessions with your Windows file system--all without leaving the Windows environment. Quite a step up from Notepad++!
+
+**Easy export / import**: One concern I had with WSL2 was how challenging it would be to restore your Linux environment if you upgrade computers. I use Microsoft's Surface Pro series as my daily driver, and I was contemplating swapping out in a larger SSD, but I was unsure how well the WSL2 export / import functionality would work. Well, I'm happy to report that it worked perfectly -- I exported by Linux distribution, saved it to OneDrive, and then just imported it once the new SSD was installed.
+
+## How to get started with WSL2
+
+You can give WSL2 a try with just a few quick steps!
+
+**1. Enable WSL2**: Before you can use WSL2, you need to enable it on your Windows machine. You can do this by opening the Windows Features dialog box and selecting the Windows Subsystem for Linux option. You will also need to install the latest version of the Windows Terminal app.
+
+**2. Install a Linux distribution**: Once you have enabled WSL2, you can download and install your preferred Linux distribution from the Microsoft Store. Ubuntu, Debian, and Kali Linux are popular choices among developers.
+
+**3. Launch the Linux environment**: Once you have installed your Linux distribution, you can launch the Linux environment from the Windows Terminal app (or make it the default). You will be prompted to create a username and password, which you will use to log in to the Linux environment.
+
+**4. Start coding**: Once you're logged in to the Linux environment, you can start coding using your favorite Linux-based tools and applications. Or, use Visual Studio Code and access your Linux programs and files right from Windows! You also access Windows files and directories by navigating to the /mnt directory in your Linux environment.
+
+Overall, WSL2 is a great tool for developers who want to use Linux but love using Windows. It provides full-featured access to a Linux environment, improved performance, easy integration with Windows, and easy setup and configuration. I can't wait to see what's next with WSL3!
