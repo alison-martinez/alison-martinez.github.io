@@ -25,7 +25,7 @@ const projects = [
     description:
       'A light-hearted take on a request bin, generating custom endpoints for aggregating and viewing webhook data, using Node, Express, and React.',
     link: {
-      href: 'https://www.alisonmartinez.info/request',
+      href: 'https://www.alisonmartinez.dev/request',
       label: 'Request Bin',
     },
     logo: logoDumpster,
@@ -34,7 +34,7 @@ const projects = [
     name: 'Starburst Inventory',
     description: `A simple tool for keeping track of my inventory of Franciscan Starburst dishes, using Ruby, Sinatra, PostgreSQL, and MongoDB.`,
     link: {
-      href: 'https://starburst.alisonmartinez.info',
+      href: 'https://starburst.alisonmartinez.dev',
       label: 'Starburst',
     },
     logo: logoStarburst,
