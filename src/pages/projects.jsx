@@ -4,35 +4,38 @@ import Image from 'next/image'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoUChicago from '@/images/logos/uchicago.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoDumpster from '@/images/logos/dumpster.svg'
 import logoGenetics from '@/images/logos/genetics.svg'
 import logoPNAS from '@/images/logos/pnas.svg'
 import logoStarburst from '@/images/logos/starburst.svg'
+import logoContacts from '@/images/logos/contacts.svg'
+import logoList from '@/images/logos/list.svg'
+import logoTestLab from '@/images/logos/testLabIcon.svg'
 
 const projects = [
   {
-    name: 'Capstone Project',
-    description: 'Placeholder.',
-    link: { href: 'http://planetaria.tech', label: 'placeholder' },
-    logo: logoPlanetaria,
+    name: 'Test Lab A/B Testing Platform',
+    description:
+      'TestLab is an open-source, self-hosted feature flagging and experimentation platform for creating feature toggles, rollouts, and experiments, with native Node, React, Ruby, and Python SDKs to evaluate features and allow rendering of user-specific variants. ',
+    link: { href: 'https://testl-ab.github.io/', label: 'Test Lab' },
+    logo: logoTestLab,
   },
   {
     name: 'The Dumpster of Disappointment',
     description:
-      'A light-hearted take on a request bin, generating custom endpoints for aggregating and viewing webhook data.',
+      'A light-hearted take on a request bin, generating custom endpoints for aggregating and viewing webhook data, using Node, Express, and React.',
     link: {
       href: 'https://www.alisonmartinez.info/request',
-      label: 'request',
+      label: 'Request Bin',
     },
     logo: logoDumpster,
   },
   {
     name: 'Starburst Inventory',
-    description: `A fun little tool for keeping track of my inventory of Franciscan Starburst dishes.`,
+    description: `A simple tool for keeping track of my inventory of Franciscan Starburst dishes, using Ruby, Sinatra, PostgreSQL, and MongoDB.`,
     link: {
       href: 'https://starburst.alisonmartinez.info',
-      label: 'starburst',
+      label: 'Starburst',
     },
     logo: logoStarburst,
   },
@@ -66,6 +69,24 @@ const projects = [
     },
     logo: logoUChicago,
   },
+  // {
+  //   name: 'Contact Manager',
+  //   description: `A contact manager webapp using Node and vanilla JavaScript.`,
+  //   link: {
+  //     href: 'https://contacts.alisonmartinez.info',
+  //     label: 'contacts',
+  //   },
+  //   logo: logoContacts,
+  // },
+  // {
+  //   name: 'To-Do Webapp',
+  //   description: `A to-do list manager using Ruby, Sinatra, and PostgreSQL.`,
+  //   link: {
+  //     href: 'https://todos.alisonmartinez.info',
+  //     label: 'to-dos',
+  //   },
+  //   logo: logoList,
+  // },
 ]
 
 function LinkIcon(props) {
