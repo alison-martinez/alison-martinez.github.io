@@ -46,9 +46,6 @@ export default function Speaking() {
               description={
                 <div>
                   <p className="mb-2">
-                    {`Completed the mastery-based Core Curriculum followed by Capstone, with a focus on just-in-time learning and the skills to immediately add value to a modern software engineering team.`}
-                  </p>
-                  <p className="mb-2">
                     {`Collaborated with three other developers on the creation, design, and implementation of Test Lab, an open-source, self-hosted platform for creating and managing feature toggles, rollouts, and experiments.`}
                   </p>
                   <p className="mb-2">
