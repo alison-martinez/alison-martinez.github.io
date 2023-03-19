@@ -284,7 +284,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        download="AlisonAdamsMartinez.pdf"
+        // download="AlisonAdamsMartinez.pdf"
         href="/AlisonAdamsMartinez.pdf"
         target="_blank"
         rel="noopener noreferrer"

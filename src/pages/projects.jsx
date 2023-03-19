@@ -64,11 +64,14 @@ const projects = [
     description:
       'Inferring human demography from patterns of genetic variation.',
     link: {
-      href: 'https://catalog.lib.uchicago.edu/vufind/Record/6091826',
+      href: '/AlisonThesisFinal.pdf',
       label: 'uchicago.edu',
     },
     logo: logoUChicago,
   },
+
+  //href: 'https://catalog.lib.uchicago.edu/vufind/Record/6091826',
+
   // {
   //   name: 'Contact Manager',
   //   description: `A contact manager webapp using Node and vanilla JavaScript.`,

@@ -93,7 +93,7 @@ const features = [
   {
     name: 'LaTeX',
     description: '',
-    icon: 'devicon-latex-plain colored',
+    icon: 'devicon-latex-original',
   },
   {
     name: 'R',
