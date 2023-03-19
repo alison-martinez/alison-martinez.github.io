@@ -101,9 +101,9 @@ const features = [
     icon: 'devicon-r-plain colored',
   },
   {
-    name: 'Linux',
+    name: 'GitHub',
     description: '',
-    icon: 'devicon-linux-plain colored',
+    icon: 'devicon-github-plain colored',
   },
 ]
 
