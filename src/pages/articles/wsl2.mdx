@@ -3,17 +3,17 @@ import { ArticleLayout } from '@/components/ArticleLayout'
 export const meta = {
   author: 'Alison Martinez',
   date: '2023-03-18',
-  title: `WSL2: A Girl's New Best Friend`,
+  title: `Linux or Windows? No need to decide!`,
   description: `I've really enjoyed the improvements that WSL2 has made over the past few years, so I thought I'd take a few moments and share what I see as the benefits of using WSL2 for coding and how to get started with it.`,
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-WSL2 (Windows Subsystem for Linux 2) is a powerful tool for developers who want to use Linux on Windows. It allows you to run Linux command-line tools and applications directly on your Windows machine, without the need for a separate virtual machine or dual-boot setup. I've really enjoyed the improvements that WSL2 has made over the past few years, so I thought I'd take a few moments and share what I see as the benefits of using WSL2 for coding and how to get started with it.
+WSL2 (Windows Subsystem for Linux 2) is a powerful tool for developers who want to use Linux but also are firmly embedded in the Windows ecosystem. It allows you to run Linux command-line tools and applications directly on your Windows machine, without the need for a separate virtual machine or dual-boot setup. I've really enjoyed the improvements that WSL2 has made over the past few years, so I thought I'd take a few moments and share what I see as the benefits of using WSL2 for coding and how to get started with it.
 
 ## Why use WSL2 for coding?
 
-**Access to a Linux environment**: If you're a developer who needs to work with Linux-based tools or applications, WSL2 provides a Linux environment that runs directly on your Windows machine. Before WSL, I dual-booted my computer with Linux and Windows, as it was the best option for folks like me that weren't willing to swap Windows for Apple. Now that WSL2 has evolved, I have all the development tools that I need without ever leaving my Windows desktop!
+**Access to a Linux environment**: If you're a developer who needs to work with Linux-based tools or applications, WSL2 provides a Linux environment that runs directly on your Windows machine. Before WSL, I dual-booted my computer with Linux and Windows, as it was the best option for folks like me that couldn't commit to Linux full-time and also weren't willing to swap Windows for Apple. Now that WSL2 has evolved, I have all the development tools that I need without ever leaving my Windows desktop!
 
 **Improved performance**: WSL2 is built on a lightweight virtualization technology, which means that it offers better performance than its predecessor, WSL1. With WSL2, you can expect faster boot times, improved file system performance, and reduced CPU usage. I have definitely seen the WSL experience improve over the last few years, and I expect new features will continue to be introduced over time.
 
@@ -21,11 +21,11 @@ WSL2 (Windows Subsystem for Linux 2) is a powerful tool for developers who want 
 
 **Seamless integration with VSCode**: Visual Studio Code is my preferred coding environment, and you can easily switch between WSL "remote" sessions with your Linux folders and "local" sessions with your Windows file system--all without leaving the Windows environment. Quite a step up from Notepad++!
 
-**Easy export / import**: One concern I had with WSL2 was wondering how challenging it would be to restore your Linux environment if you upgrade computers. I use Microsoft's Surface Pro series as my daily driver, and I was contemplating swapping in a larger SSD, but I was unsure how well the WSL2 export / import functionality would work. Well, I'm happy to report that it worked perfectly -- I exported my Linux distribution, saved it to OneDrive, and then just imported it once the new SSD was installed.
+**Easy export / import**: One concern I had with WSL2 was maintaining my finely curated Linux environment when I upgrade computers (which is often!). I use Microsoft's Surface Pro series as my daily driver, and I was contemplating swapping in a larger SSD, but I was unsure how well the WSL2 export / import functionality would work. Well, I'm happy to report that it worked perfectly -- I exported my Linux distribution, saved it to OneDrive, and then just imported it once the new SSD was installed. There are some great [walkthroughs](https://aalonso.dev/blog/how-to-back-up-and-restore-o-migrate-to-a-new-computer-a-wsl2-machine-481m) to guide you through the back-up and restore of a WSL2 distro.
 
 ## How to get started with WSL2
 
-You can give WSL2 a try with just a few quick steps!
+You can give WSL2 a try with [just a few quick steps](https://learn.microsoft.com/en-us/windows/wsl/)!
 
 **1. Enable WSL2**: Before you can use WSL2, you need to enable it on your Windows machine. You can do this by opening the Windows Features dialog box and selecting the Windows Subsystem for Linux option. You will also need to install the latest version of the Windows Terminal app.
 
