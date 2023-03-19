@@ -75,6 +75,36 @@ const features = [
     description: '',
     icon: 'devicon-mongodb-plain colored',
   },
+  {
+    name: 'Markdown',
+    description: '',
+    icon: 'devicon-markdown-plain colored',
+  },
+  {
+    name: 'AWS',
+    description: '',
+    icon: 'devicon-amazonwebservices-plain colored',
+  },
+  {
+    name: 'VS Code',
+    description: '',
+    icon: 'devicon-vscode-plain colored',
+  },
+  {
+    name: 'LaTeX',
+    description: '',
+    icon: 'devicon-latex-plain colored',
+  },
+  {
+    name: 'R',
+    description: '',
+    icon: 'devicon-r-plain colored',
+  },
+  {
+    name: 'Linux',
+    description: '',
+    icon: 'devicon-linux-plain colored',
+  },
 ]
 
 export function Skills() {
