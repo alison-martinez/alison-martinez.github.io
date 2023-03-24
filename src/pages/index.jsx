@@ -335,7 +335,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="I'm Alison, a full-stack software engineer and management consulting professional with extensive experience in the healthcare sector and a special interest in web development, technology evaluation, market analysis, revenue forecasting, and commercialization strategy."
+          content="I'm Alison, a full-stack software engineer and management consulting professional with extensive industry experience in genetics,  healthcare, and the life sciences."
         />
       </Head>
       <Container className="mt-9">
@@ -344,7 +344,7 @@ export default function Home({ articles }) {
             Software engineer, scientist, and furniture enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            {`I'm Alison, a full-stack software engineer and management consulting professional with extensive experience in the healthcare sector and a special interest in web development, technology evaluation, market analysis, revenue forecasting, and commercialization strategy.`}
+            {`I'm Alison, a full-stack software engineer and management consulting professional with extensive industry experience in genetics,  healthcare, and the life sciences.`}
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
