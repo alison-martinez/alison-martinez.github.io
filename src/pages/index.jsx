@@ -347,19 +347,19 @@ export default function Home({ articles }) {
             {`I'm Alison, a full-stack software engineer and management consulting professional with extensive industry experience in genetics,  healthcare, and the life sciences.`}
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink
+            {/* <SocialLink
               href="https://twitter.com/martinez_alison"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
-            />
+            /> */}
             <SocialLink
-              href="https://www.instagram.com/alison.martinez/"
+              href="https://www.linkedin.com/in/alisonadamsmartinez/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
             />
             <SocialLink
               href="https://github.com/alison-martinez"
@@ -369,11 +369,11 @@ export default function Home({ articles }) {
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/alisonadamsmartinez/"
+              href="https://www.instagram.com/alison.martinez/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
             />
           </div>
         </div>

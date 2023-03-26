@@ -17,6 +17,8 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
+        target="_blank"
+        rel="noopener noreferrer"
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
@@ -81,22 +83,22 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink
+              {/* <SocialLink
                 href="https://twitter.com/martinez_alison"
                 target="_blank"
                 rel="noopener noreferrer"
                 icon={TwitterIcon}
               >
                 Follow on Twitter
-              </SocialLink>
+              </SocialLink> */}
               <SocialLink
-                href="https://www.instagram.com/alison.martinez/"
+                href="https://www.linkedin.com/in/alisonadamsmartinez/"
                 target="_blank"
                 rel="noopener noreferrer"
-                icon={InstagramIcon}
+                icon={LinkedInIcon}
                 className="mt-4"
               >
-                Follow on Instagram
+                Follow on LinkedIn
               </SocialLink>
               <SocialLink
                 href="https://github.com/alison-martinez"
@@ -108,14 +110,15 @@ export default function About() {
                 Follow on GitHub
               </SocialLink>
               <SocialLink
-                href="https://www.linkedin.com/in/alisonadamsmartinez/"
+                href="https://www.instagram.com/alison.martinez/"
                 target="_blank"
                 rel="noopener noreferrer"
-                icon={LinkedInIcon}
+                icon={InstagramIcon}
                 className="mt-4"
               >
-                Follow on LinkedIn
+                Follow on Instagram
               </SocialLink>
+
               <SocialLink
                 href="mailto:alison@alisonmartinez.info"
                 icon={MailIcon}
