@@ -99,6 +99,24 @@ the AWS Elastic Container Registry for easy deployment on virtual private server
           </SpeakingSection>
           <SpeakingSection title="Professional Experience">
             <Appearance
+              href="https://www.sbir.gov/"
+              title="SBIR/STTR Grant Reviewer"
+              description={
+                <div>
+                  <p className="mb-2">
+                    {`Reviews SBIR and STTR federal grant proposals prior to submission, focusing on novel
+pharmaceuticals, biotech, genetic tests and technologies, medical devices, and other innovations applicable to the healthcare sector.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Evaluates the proposed innovation in terms of potential significance, commercial impact, technical
+feasibility, and value proposition compared to existing and pipeline competitors..`}
+                  </p>
+                </div>
+              }
+              event="Independent Consultant"
+              cta="Learn More"
+            />
+            <Appearance
               href="https://www.innovationpark.psu.edu/index.php/technology-transfer"
               title="Senior Technology Licensing Officer"
               description={
