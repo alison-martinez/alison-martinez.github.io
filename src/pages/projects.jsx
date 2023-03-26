@@ -16,29 +16,29 @@ const projects = [
   {
     name: 'Test Lab A/B Testing Platform',
     description:
-      'TestLab is an open-source, self-hosted feature flagging and experimentation platform for creating feature toggles, rollouts, and experiments, with native Node, React, Ruby, and Python SDKs to evaluate features and allow rendering of user-specific variants. ',
+      'TestLab is an open-source, self-hosted feature flagging and experimentation platform for creating feature toggles, rollouts, and experiments, with native Node, React, Ruby, and Python SDKs. Test Lab includes a Node.js / Express backend server, React Admin UI, and PostgreSQL database that are Dockerized for easy deployment.',
     link: { href: 'https://testl-ab.github.io/', label: 'Test Lab' },
     logo: logoTestLab,
   },
-  {
-    name: 'The Dumpster of Disappointment',
-    description:
-      'A light-hearted take on a request bin, generating custom endpoints for aggregating and viewing webhook data, using Node, Express, and React.',
-    link: {
-      href: 'https://alisonmartinez.info/request',
-      label: 'Request Bin',
-    },
-    logo: logoDumpster,
-  },
-  {
-    name: 'Starburst Inventory',
-    description: `A simple tool for keeping track of my inventory of Franciscan Starburst dishes, using Ruby, Sinatra, PostgreSQL, and MongoDB.`,
-    link: {
-      href: 'https://starburst.alisonmartinez.info',
-      label: 'Starburst',
-    },
-    logo: logoStarburst,
-  },
+  // {
+  //   name: 'The Dumpster of Disappointment',
+  //   description:
+  //     'A light-hearted take on a request bin, generating custom endpoints for aggregating and viewing webhook data, using Node, Express, and React.',
+  //   link: {
+  //     href: 'https://alisonmartinez.info/request',
+  //     label: 'Request Bin',
+  //   },
+  //   logo: logoDumpster,
+  // },
+  // {
+  //   name: 'Starburst Inventory',
+  //   description: `A simple tool for keeping track of my inventory of Franciscan Starburst dishes, using Ruby, Sinatra, PostgreSQL, and MongoDB.`,
+  //   link: {
+  //     href: 'https://starburst.alisonmartinez.info',
+  //     label: 'Starburst',
+  //   },
+  //   logo: logoStarburst,
+  // },
   {
     name: 'Genetics',
     description:
@@ -115,11 +115,11 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="These are a few of my favorite things."
-        intro="I’ve worked on tons of little projects over the years but here is a small selection of recent projects and professional publications."
+        intro="I’ve worked on tons of little projects over the years, but here is a small selection of recent projects and professional publications."
       >
         <ul
           role="list"
-          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
+          className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-2"
         >
           {projects.map((project) => (
             <Card as="li" key={project.name}>
