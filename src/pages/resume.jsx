@@ -109,7 +109,7 @@ pharmaceuticals, biotech, genetic tests and technologies, medical devices, and o
                   </p>
                   <p className="mb-2">
                     {`Evaluates the proposed innovation in terms of potential significance, commercial impact, technical
-feasibility, and value proposition compared to existing and pipeline competitors..`}
+feasibility, and value proposition compared to existing and pipeline competitors.`}
                   </p>
                 </div>
               }
