@@ -122,9 +122,7 @@ feasibility, and value proposition compared to existing and pipeline competitors
               description={
                 <div>
                   <p className="mb-2">
-                    {`Evaluated innovations in terms of intellectual property strength, significance, commercial impact,
-technical feasibility, and value proposition compared to existing and pipeline competitors, focusing on
-novel pharmaceuticals, biotech, medical devices, and innovations applicable to the healthcare sector.`}
+                    {`Evaluated life science innovations from the College of Medicine in terms of intellectual property strength and potential commercial value.`}
                   </p>
                   <p>
                     {`Provided actionable feedback and recommendations to inventors on potential improvements to their
