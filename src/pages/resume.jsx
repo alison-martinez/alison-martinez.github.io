@@ -171,7 +171,7 @@ Authority Board, the OK Hospital Association, and the University of OK College o
                 <div>
                   <p className="mb-2">
                     {`Managed over 30 projects focused on a variety of client needs including strategic planning,
-commercial due diligence, revenue forecasting, valuation, and target acquisition screening..`}
+commercial due diligence, revenue forecasting, valuation, and target acquisition screening.`}
                   </p>
                   <p className="mb-2">
                     {`Developed market models, pharmacoeconomic evaluations, and other analytic approaches to quantify
