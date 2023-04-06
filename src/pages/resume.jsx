@@ -41,34 +41,6 @@ export default function Speaking() {
         <div className="space-y-20">
           <SpeakingSection title="Education">
             <Appearance
-              href="https://testl-ab.github.io/"
-              title="Software Engineering"
-              description={
-                <div>
-                  <p className="mb-2">
-                    {`Collaborated with three other developers on the creation, design, and implementation of Test Lab, an open-source, self-hosted platform for creating and managing feature toggles, rollouts, and experiments.`}
-                  </p>
-                  <p className="mb-2">
-                    {`Developed native Node, React, Ruby, and Python SDKs for Test Lab, with assignment logic to evaluate
-features and allow rendering of user-specific variants while ensuring the integrity of A/B experiments.`}
-                  </p>
-                  <p className="mb-2">
-                    {`Co-developed the Test Lab backend server, which exposes RESTful APIs for creating and managing
-features, users, and experiment-related events.`}
-                  </p>
-                  <p className="mb-2">
-                    {`Dockerized the Test Lab Node backend server, React frontend UI, and PostgreSQL database, available on
-the AWS Elastic Container Registry for easy deployment on virtual private servers or AWS ECS.`}
-                  </p>
-                  <p>
-                    {`Authored the Test Lab case study and documentation, available at TestL-ab.github.io `}
-                  </p>
-                </div>
-              }
-              event="Launch School"
-              cta="Learn More"
-            />
-            <Appearance
               href="https://ggsb.uchicago.edu/"
               title="Ph.D., Genetics"
               description={
@@ -97,7 +69,35 @@ the AWS Elastic Container Registry for easy deployment on virtual private server
               cta="Learn More"
             />
           </SpeakingSection>
-          <SpeakingSection title="Professional Experience">
+          <SpeakingSection title="Professional and Technical Experience">
+            <Appearance
+              href="https://testl-ab.github.io/"
+              title="Test Lab Creator and Software Engineer"
+              description={
+                <div>
+                  <p className="mb-2">
+                    {`Collaborated with three other developers on the creation, design, and implementation of Test Lab, an open-source, self-hosted platform for creating and managing feature toggles, rollouts, and experiments.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Developed native Node, React, Ruby, and Python SDKs for Test Lab, with assignment logic to evaluate
+features and allow rendering of user-specific variants while ensuring the integrity of A/B experiments.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Developed the Test Lab backend server, which exposes RESTful APIs for creating and managing
+features, users, and experiment-related events.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Dockerized the Test Lab Node backend server, React frontend UI, and PostgreSQL database, available on
+the AWS Elastic Container Registry for easy deployment on virtual private servers or AWS ECS.`}
+                  </p>
+                  <p>
+                    {`Authored the Test Lab case study and documentation, available at TestL-ab.github.io `}
+                  </p>
+                </div>
+              }
+              event="Independent Study"
+              cta="Learn More"
+            />
             <Appearance
               href="https://www.sbir.gov/"
               title="SBIR/STTR Grant Reviewer"

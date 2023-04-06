@@ -17,6 +17,7 @@ import logoLaunchSchool from '@/images/logos/launchSchool.svg'
 import logoPSU from '@/images/logos/psu.svg'
 import logoLek from '@/images/logos/lek.svg'
 import logoOhca from '@/images/logos/ohca.svg'
+import logoSBIR from '@/images/logos/sbir-logo.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -155,6 +156,13 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
+      company: 'Independent Consultant',
+      title: 'SBIR / STTR Grant Reviewer',
+      logo: logoSBIR,
+      start: '2012',
+      end: 'Present',
+    },
+    {
       company: 'Penn State University',
       title: 'Senior Technology Licensing Officer',
       logo: logoPSU,
@@ -178,16 +186,16 @@ function Resume() {
   ]
 
   let education = [
-    {
-      company: 'Launch School',
-      title: 'Software Engineering',
-      logo: logoLaunchSchool,
-      start: '2022',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear(),
-      },
-    },
+    // {
+    //   company: 'Launch School',
+    //   title: 'Software Engineering',
+    //   logo: logoLaunchSchool,
+    //   start: '2022',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear(),
+    //   },
+    // },
     {
       company: 'The University of Chicago',
       title: 'Ph.D., Genetics',
@@ -405,7 +413,7 @@ export async function getStaticProps() {
   return {
     props: {
       articles: (await getAllArticles())
-        .slice(0, 3)
+        .slice(0, 4)
         .map(({ component, ...meta }) => meta),
     },
   }

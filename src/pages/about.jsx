@@ -76,7 +76,7 @@ export default function About() {
                 {`I decided to pursue a PhD in genetics at the University of Chicago and discovered computational genetics -- no wet lab work required. I dual-booted my Windows laptop with Linux and taught myself enough Perl, R, and C++ to to develop and run coalescent simulations and process the data for my dissertation.  This started my self-taught dive into software and development.`}
               </p>
               <p>
-                {`After years of working in software engineering-adjacent roles, I took the leap and completed Launch School's Core Curriculum and joined 2023's first Capstone cohort, looking to fully transition into a pure software engineering role. With my unique background and experience, I am excited to bring fresh
+                {`After years of working in software engineering-adjacent roles, I'm taking a leap and looking to fully transition into a pure software engineering role. With my unique background and experience, I am excited to bring fresh
                 perspectives and contributions to new opportunities.`}
               </p>
             </div>
