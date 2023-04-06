@@ -1,0 +1,33 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Alison Martinez',
+  date: '2023-04-06',
+  title: `Introducing ... Test Lab!`,
+  description: `I'm proud to announce the launch of Test Lab, an open-source, self-hosted feature management and A/B testing platform that I developed with three other software engineers.`,
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+I'm proud to announce the launch of Test Lab, an open-source, self-hosted feature management and A/B testing platform that I developed with three other software engineers.
+
+> [Test Lab is an open-source, self-hosted feature management and A/B testing platform.](https://testl-ab.github.io/)
+
+Test Lab provides **feature management** infrastructure for the creation of feature toggles, rollouts, and experiments.
+
+- **Toggles** and **Rollouts** are features that are active or inactive for all users of an application or a specified percentage of users, respectively.
+- **Experiment** features include two or more **variants**, and each user enrolled in an experiment is presented with one version of an application depending on the variant assigned.
+
+The Test Lab A/B Testing and Feature Flagging Platform consists of:
+
+1. A Node.js with Express backend server that exposes API endpoints for creating, editing, and deleting features, retrieving feature configurations, and collecting and retrieving feature data
+2. An Admin User Interface (Admin UI) built with React that facilitates creating, editing, deleting, and viewing current, scheduled, and past features as well as viewing experiment data and results
+3. A PostgreSQL database for persisting data that defines the features, the blocks of the user base allocated to each experiment, and event data for experiment analytics
+4. Native SDKs for Node.js, React, Ruby, and Python for communicating directly with the Test Lab API and allocating individual requests to the appropriate feature(s)
+
+Test Lab is Dockerized and can be deployed on your virtual private server or AWS Elastic Container Service with one simple command.
+
+You can read more in the [Test Lab case study](https://testl-ab.github.io/), which explores key decisions made when designing and implementing the Test Lab platform, including:
+
+- Architectural decisions regarding Test Lab hosting, database type, and API access
+- Design decisions relating to the consistency of the user experience, limiting users to one concurrent experiment with user-blocks, the granularity of user-blocks, and using polling to retrieve updated feature data
