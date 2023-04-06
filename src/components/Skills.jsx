@@ -6,15 +6,16 @@ const features = [
     //icon: 'nf-dev-ruby',
   },
   {
-    name: 'HTML',
-    description: '',
-    icon: 'devicon-html5-plain colored',
-  },
-  {
     name: 'Javascript',
     description: '',
     icon: 'devicon-javascript-plain colored',
   },
+  {
+    name: 'Java',
+    description: '',
+    icon: 'devicon-java-plain colored',
+  },
+
   {
     name: 'Node.js',
     description: '',
@@ -61,6 +62,11 @@ const features = [
     icon: 'devicon-nginx-original colored',
   },
   {
+    name: 'HTML',
+    description: '',
+    icon: 'devicon-html5-plain colored',
+  },
+  {
     name: 'Digital Ocean',
     description: '',
     icon: 'devicon-digitalocean-plain colored',
@@ -85,11 +91,7 @@ const features = [
     description: '',
     icon: 'devicon-amazonwebservices-plain colored',
   },
-  {
-    name: 'VS Code',
-    description: '',
-    icon: 'devicon-vscode-plain colored',
-  },
+
   {
     name: 'LaTeX',
     description: '',
