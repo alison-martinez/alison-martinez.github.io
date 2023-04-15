@@ -135,12 +135,16 @@ projects and proposals, including research design, commercialization strategy, a
             />
             <Appearance
               href="https://oklahoma.gov/ohca/providers/molecular-pathology.html"
-              title="Geneticist and Clinical Data Specialist"
+              title="Geneticist and Medicaid Clinical Data Specialist"
               description={
                 <div>
                   <p className="mb-2">
                     {`Developed new software tools to allow for increased efficiency and functionality in handling large and
-complex data sets, with a special interest in Perl, R, Google Motion Charts, Circos, and 3M PPE tools.`}
+complex claims data sets using Perl, R, Tableau, Google Motion Charts, Circos, SQL, and 3M PPE.`}
+                  </p>
+                  <p className="mb-2">
+                    {`Designed and executed research projects using physician, inpatient, outpatient, and pharmacy claims along
+with enrollment data to aid in the development of health care policy, acting as an internal consultant to OHCA staff in determining the appropriate analysis for specific clinical questions.`}
                   </p>
                   <p className="mb-2">
                     {`Evaluated the analytical validity, clinical validity, and clinical utility of emerging genetic technologies,
