@@ -16,7 +16,7 @@ const projects = [
   {
     name: 'Test Lab A/B Testing Platform',
     description:
-      'TestLab is an open-source, self-hosted feature flagging and experimentation platform for creating feature toggles, rollouts, and experiments, with native Node, React, Ruby, and Python SDKs. Test Lab includes a Node.js / Express backend server, React Admin UI, and PostgreSQL database that are Dockerized for easy deployment.',
+      'TestLab is an open-source, self-hosted feature flagging and experimentation platform for creating feature toggles, rollouts, and experiments, with native Node, React, Ruby, and Python SDKs. Test Lab includes a Node.js / Express back-end server, React Admin UI, and PostgreSQL database that are Dockerized for easy deployment.',
     link: { href: 'https://testl-ab.github.io/', label: 'Test Lab' },
     logo: logoTestLab,
   },
