@@ -76,8 +76,7 @@ export default function About() {
                 {`I decided to pursue a PhD in genetics at the University of Chicago and discovered computational genetics -- no wet lab work required. I dual-booted my Windows laptop with Linux and taught myself enough Perl, R, and C++ to to develop and run coalescent simulations and process the data for my dissertation.  This started my self-taught dive into software and development.`}
               </p>
               <p>
-                {`After years of working in software engineering-adjacent roles, I'm taking a leap and looking to fully transition into a pure software engineering role. With my unique background and experience, I am excited to bring fresh
-                perspectives and contributions to new opportunities.`}
+                {`After years of working in software engineering-adjacent roles, I'm taking a leap and fully transitioning into a pure software engineering role. I couldn't be more thrilled to be joining the Natera team working on their oncology portal!`}
               </p>
             </div>
           </div>

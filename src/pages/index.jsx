@@ -18,6 +18,7 @@ import logoPSU from '@/images/logos/psu.svg'
 import logoLek from '@/images/logos/lek.svg'
 import logoOhca from '@/images/logos/ohca.svg'
 import logoSBIR from '@/images/logos/sbir-logo.png'
+import logoNatera from '@/images/logos/natera.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -156,11 +157,18 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
+      company: 'Natera',
+      title: 'Software Engineer',
+      logo: logoNatera,
+      start: '2023',
+      end: 'Present',
+    },
+    {
       company: 'Independent Consultant',
       title: 'SBIR / STTR Grant Reviewer',
       logo: logoSBIR,
       start: '2012',
-      end: 'Present',
+      end: '2023',
     },
     {
       company: 'Penn State University',
