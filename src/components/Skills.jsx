@@ -1,5 +1,15 @@
 const features = [
   {
+    name: 'Typescript',
+    description: '',
+    icon: 'devicon-typescript-plain colored',
+  },
+  {
+    name: 'GraphQL',
+    description: '',
+    icon: 'devicon-graphql-plain colored',
+  },
+  {
     name: 'Ruby / Sinatra',
     description: '',
     icon: 'devicon-ruby-plain colored',
@@ -9,11 +19,6 @@ const features = [
     name: 'Javascript',
     description: '',
     icon: 'devicon-javascript-plain colored',
-  },
-  {
-    name: 'Java',
-    description: '',
-    icon: 'devicon-java-plain colored',
   },
 
   {
@@ -50,6 +55,11 @@ const features = [
     name: 'Python',
     description: '',
     icon: 'devicon-python-plain colored',
+  },
+  {
+    name: 'Java',
+    description: '',
+    icon: 'devicon-java-plain colored',
   },
   {
     name: 'Docker',
@@ -106,6 +116,11 @@ const features = [
     name: 'GitHub',
     description: '',
     icon: 'devicon-github-plain colored',
+  },
+  {
+    name: 'Gitlab',
+    description: '',
+    icon: 'devicon-gitlab-plain colored',
   },
 ]
 

@@ -175,7 +175,7 @@ function Resume() {
       title: 'Senior Technology Licensing Officer',
       logo: logoPSU,
       start: '2020',
-      end: '2023',
+      end: '2022',
     },
     {
       company: 'OHCA',
